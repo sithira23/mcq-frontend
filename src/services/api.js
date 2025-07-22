@@ -9,10 +9,10 @@ export const api = axios.create({
   },
 });
 
-// Auth APIs - keep as is since login works
+// Auth APIs
 export const loginUser = (credentials) => api.post("/users/login", credentials);
 
-// Exam APIs - return the full response
+// Exam APIs
 export const getAllExams = () => api.get("/exams");
 
 export const getQuestionsByExam = (examId) =>
