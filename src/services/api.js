@@ -6,7 +6,7 @@ export const api = axios.create({
 });
 
 //Auth APIs
-export const login = (credentials) => {
+export const loginUser = (credentials) => {
   return api.post("/users/login", credentials);
 };
 

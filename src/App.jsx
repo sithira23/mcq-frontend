@@ -3,6 +3,7 @@ import Login from "./pages/Login";
 import ExamList from "./pages/ExamList";
 import ExamTaking from "./pages/ExamTaking";
 import Results from "./pages/Results";
+import "./App.css"; // Assuming you have some global styles
 
 function App() {
   return (
